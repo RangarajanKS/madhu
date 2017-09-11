@@ -73,14 +73,14 @@ public class java_sample
 @Test
 public void step3() throws InterruptedException
 {
- 	driver.findElement(By.id("txtusername")).sendKeys("scufadmin");
+ 	driver.findElement(By.id("txtusername")).sendKeys("rah");
 
  	driver.findElement(By.id("txtpassword")).sendKeys("welcome");
 
  		driver.findElement(By.id("btnSubmit")).click();
  	     
  	     Thread.sleep(2000);
- 		driver.navigate().to("http://cos.stfc.me/Scufcrm/csms.ui/UserIdCreation.aspx?uid=0");
+ 		driver.navigate().to("url");
  		
  		//actions
 
